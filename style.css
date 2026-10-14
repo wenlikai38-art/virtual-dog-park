@@ -140,6 +140,37 @@ button[type="submit"] {
   background: var(--accent);
 }
 
+#next-day-button {
+  background: #d98a2b;
+}
+
+#start-over-button {
+  background: #b00020;
+}
+
+/* Growth bar: three clearly different widths for the three stages */
+.growth {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0.75rem 0;
+}
+
+.growth-bar {
+  flex: 1;
+  height: 14px;
+  background: #eee;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.growth-fill {
+  height: 100%;
+  width: 33%;
+  background: var(--accent);
+  transition: width 0.3s ease;
+}
+
 /* Narrow screen: stack cards in one column */
 @media (max-width: 640px) {
   .cards {
