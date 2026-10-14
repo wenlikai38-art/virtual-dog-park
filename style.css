@@ -81,6 +81,65 @@ footer {
   margin-top: 2rem;
 }
 
+/* My Virtual Dog section */
+#adopt-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.75rem;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+#adopt-form label {
+  font-weight: 600;
+}
+
+#adopt-form select,
+#adopt-form input {
+  padding: 0.45rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+#pet-message {
+  min-height: 1.4rem;
+  color: #b00020;
+  font-weight: 600;
+}
+
+#pet-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  margin-top: 0.5rem;
+  max-width: 420px;
+}
+
+#pet-card h3 {
+  margin-top: 0;
+  color: var(--accent);
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button[type="submit"] {
+  background: var(--accent);
+}
+
 /* Narrow screen: stack cards in one column */
 @media (max-width: 640px) {
   .cards {
