@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" role="img" aria-label="Illustration of a Golden Retriever">
+  <rect width="200" height="160" fill="#eef3f7"/>
+  <!-- body -->
+  <ellipse cx="100" cy="112" rx="60" ry="33" fill="#e8b867"/>
+  <!-- head -->
+  <circle cx="100" cy="68" r="37" fill="#e8b867"/>
+  <!-- ears -->
+  <ellipse cx="68" cy="62" rx="13" ry="26" fill="#c9963f"/>
+  <ellipse cx="132" cy="62" rx="13" ry="26" fill="#c9963f"/>
+  <!-- snout -->
+  <ellipse cx="100" cy="84" rx="20" ry="15" fill="#f4d9a0"/>
+  <!-- eyes -->
+  <circle cx="89" cy="64" r="4.5" fill="#2b2b2b"/>
+  <circle cx="111" cy="64" r="4.5" fill="#2b2b2b"/>
+  <!-- nose -->
+  <ellipse cx="100" cy="80" rx="6" ry="4.5" fill="#2b2b2b"/>
+  <!-- smile -->
+  <path d="M91 90 q9 7 18 0" stroke="#2b2b2b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- legs -->
+  <rect x="76" y="132" width="12" height="20" rx="4" fill="#e8b867"/>
+  <rect x="112" y="132" width="12" height="20" rx="4" fill="#e8b867"/>
+  <!-- feathered tail -->
+  <path d="M158 104 q26 -4 26 -28 q-14 6 -26 22 z" fill="#e8b867"/>
+</svg>

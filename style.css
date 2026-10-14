@@ -1,0 +1,89 @@
+/* Virtual Dog Park - styles */
+
+:root {
+  --bg: #fbfaf7;
+  --ink: #2b2b2b;
+  --accent: #6b8e23;
+  --card-bg: #ffffff;
+  --border: #e3e0d8;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+  color: var(--ink);
+  background: var(--bg);
+}
+
+header, main, footer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+}
+
+header h1 {
+  margin: 0.5rem 0 0.25rem;
+  color: var(--accent);
+}
+
+.welcome {
+  font-size: 1.05rem;
+  color: #555;
+}
+
+h2 {
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0.3rem;
+}
+
+/* Encyclopedia cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+}
+
+.card h3 {
+  margin: 0.5rem 0;
+  color: var(--accent);
+}
+
+.card ul {
+  text-align: left;
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 0.95rem;
+}
+
+footer {
+  color: #888;
+  font-size: 0.85rem;
+  border-top: 1px solid var(--border);
+  margin-top: 2rem;
+}
+
+/* Narrow screen: stack cards in one column */
+@media (max-width: 640px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
